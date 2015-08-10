@@ -23,6 +23,9 @@ source 'https://rubygems.org'
   gem 'bcrypt',           '~> 3.1.7'
   gem 'sucker_punch',     '~> 1.0'
 
+# Codeclimate
+  gem "codeclimate-test-reporter", group: :test, require: nil
+  
   group :development do 
     gem 'railroady',          '~> 1.3.1'
     gem 'annotate',           '~> 2.6.10'
